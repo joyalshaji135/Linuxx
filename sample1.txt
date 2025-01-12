@@ -1,0 +1,13 @@
+
+echo "Enter the two number"
+read a
+read b
+c=`echo "scale=2;$a+$b"|bc`
+d=`echo "scale=2;$a-$b"|bc`
+e=`echo "scale=3;$a/$b"|bc`
+f=`echo "scale=2;$a%$b"|bc`
+echo "Sum $c"
+echo "Diff $d"
+echo "Quot is $e"
+echo "Rem $f"
+
